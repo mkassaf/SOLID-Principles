@@ -1,4 +1,4 @@
-package edu.najah.eng.solid.lsp.hw;
+package edu.najah.eng.solid.lsp.assignment;
 
 public class LimitedCustomer extends Customer{
 

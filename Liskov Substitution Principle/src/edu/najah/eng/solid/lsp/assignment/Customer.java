@@ -1,4 +1,4 @@
-package edu.najah.eng.solid.lsp.hw;
+package edu.najah.eng.solid.lsp.assignment;
 
 import java.util.ArrayList;
 

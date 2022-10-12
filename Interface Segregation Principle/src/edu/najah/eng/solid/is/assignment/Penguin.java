@@ -1,4 +1,4 @@
-package edu.najah.eng.solid.is.example2;
+package edu.najah.eng.solid.is.assignment;
 
 public class Penguin implements Bird {
     String currentLocation;
@@ -13,10 +13,12 @@ public class Penguin implements Bird {
     }
 
     public void fly() {
+        System.err.println("Unsupported Operation Exception");
         throw new UnsupportedOperationException();
     }
 
     public void swim() {
+
         this.currentLocation = "in the water";
     }
 }

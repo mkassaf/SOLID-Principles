@@ -1,4 +1,4 @@
-package edu.najah.eng.solid.srp.hw;
+package edu.najah.eng.solid.srp.assignment;
 
 import java.util.Date;
 

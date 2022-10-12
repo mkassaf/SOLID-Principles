@@ -1,6 +1,6 @@
-package edu.najah.eng.solid.di.example;
+package edu.najah.eng.solid.di.example.bad;
 
-import edu.najah.eng.solid.di.example.hash.Base64Hasher;
+import edu.najah.eng.solid.di.example.bad.hash.Base64Hasher;
 
 public class PasswordService {
 

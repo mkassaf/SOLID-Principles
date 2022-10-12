@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc844114-e8ad-4a80-851f-6bd61d0784ab" name="Changes" comment="Add open close example">
-      <change afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/hw/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/hw/LimitedCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/hw/Offer.java" afterDir="false" />
+    <list default="true" id="bc844114-e8ad-4a80-851f-6bd61d0784ab" name="Changes" comment="Add more examples">
+      <change afterPath="$PROJECT_DIR$/Dependency Inversion Principle/src/edu/najah/eng/solid/di/assignment/WindowsMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dependency Inversion Principle/src/edu/najah/eng/solid/di/assignment/devices/Keyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dependency Inversion Principle/src/edu/najah/eng/solid/di/assignment/devices/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dependency Inversion Principle/src/edu/najah/eng/solid/di/example/good/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dependency Inversion Principle/src/edu/najah/eng/solid/di/example/good/PasswordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dependency Inversion Principle/src/edu/najah/eng/solid/di/example/good/impl/Base128Hasher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dependency Inversion Principle/src/edu/najah/eng/solid/di/example/good/impl/Base64Hasher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dependency Inversion Principle/src/edu/najah/eng/solid/di/example/good/intf/PasswordEncoder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/hw/Apartment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/hw/PenthouseSuite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/hw/Studio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/hw/UnitUpgrader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dependency Inversion Principle/src/edu/najah/eng/solid/di/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dependency Inversion Principle/src/edu/najah/eng/solid/di/example/bad/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dependency Inversion Principle/src/edu/najah/eng/solid/di/example/PasswordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dependency Inversion Principle/src/edu/najah/eng/solid/di/example/bad/PasswordService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dependency Inversion Principle/src/edu/najah/eng/solid/di/example/hash/Base64Hasher.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dependency Inversion Principle/src/edu/najah/eng/solid/di/example/bad/hash/Base64Hasher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dependency Inversion Principle/src/edu/najah/eng/solid/di/exercise/WindowsMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dependency Inversion Principle/src/edu/najah/eng/solid/di/exercise/devices/Keyboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dependency Inversion Principle/src/edu/najah/eng/solid/di/exercise/devices/Monitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example2/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/assignment/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example2/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/assignment/Eagle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example2/Penguin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/assignment/Penguin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/hw/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/assignment/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/hw/LimitedCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/assignment/LimitedCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/hw/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/assignment/Offer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/hw/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/assignment/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/hw/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/assignment/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/hw/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/assignment/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/hw/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/hw/MailMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/MailMessage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +76,8 @@
       <recent name="edu.najah.eng.solid.srp.example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.najah.eng.solid.di.example.good" />
+      <recent name="edu.najah.eng.solid.di.example.good.impl" />
       <recent name="edu.najah.eng.solid.ocp.exercise.v3" />
     </key>
   </component>
@@ -89,11 +109,11 @@
       </method>
     </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.najah.eng.solid.ocp.hw.App" />
+      <option name="MAIN_CLASS_NAME" value="edu.najah.eng.solid.ocp.assignment.App" />
       <module name="Open-Closed Principle" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.najah.eng.solid.ocp.hw.*" />
+          <option name="PATTERN" value="edu.najah.eng.solid.ocp.assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,7 +181,7 @@
       <workItem from="1665336369027" duration="2127000" />
       <workItem from="1665339690459" duration="2293000" />
       <workItem from="1665503792442" duration="12606000" />
-      <workItem from="1665558889622" duration="2291000" />
+      <workItem from="1665558889622" duration="3318000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1665503896967</created>
@@ -191,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665555535187</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add more examples">
+      <created>1665564411901</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665564411901</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +239,7 @@
     <MESSAGE value="add" />
     <MESSAGE value="Examples" />
     <MESSAGE value="Add open close example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add open close example" />
+    <MESSAGE value="Add more examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add more examples" />
   </component>
 </project>

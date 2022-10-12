@@ -1,4 +1,4 @@
-package edu.najah.eng.solid.di.example;
+package edu.najah.eng.solid.di.example.bad;
 
 public class Main {
 
