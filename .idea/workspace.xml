@@ -2,34 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc844114-e8ad-4a80-851f-6bd61d0784ab" name="Changes" comment="Add open close example">
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example3/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example3/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example3/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example3/Movable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example3/NoiseMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example3/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example3/Renderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/example/Shape2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/example3/AdminUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/example3/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/example3/SuperAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/example3/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/exercise/app/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/exercise/tax/TaxFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/exercise/tax/Taxable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/hw/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/hw/LimitedCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/hw/Offer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/example/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/example/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/example/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/example/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/example2/Apartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/hw/Apartment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/example2/PenthouseSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/hw/PenthouseSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/example2/Studio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/hw/Studio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/example2/UnitUpgrader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/hw/UnitUpgrader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/example3/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/example3/Greeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/exercise/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/exercise/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/exercise/v1/TaxCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/exercise/tax/TKTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/exercise/tax/TKTax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/exercise/v2/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/exercise/v2/TaxCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/hw/Apartment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/hw/PenthouseSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/hw/Studio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/hw/UnitUpgrader.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +27,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -68,11 +51,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu.najah.eng.solid.lsp.hw" />
       <recent name="edu.najah.eng.solid.ocp.hw" />
       <recent name="edu.najah.eng.solid.srp.exercise" />
       <recent name="edu.najah.eng.solid.srp.example.impl" />
       <recent name="edu.najah.eng.solid.srp.example" />
-      <recent name="edu.najah.eng.solid.srp.example3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="edu.najah.eng.solid.ocp.exercise.v3" />
@@ -177,7 +160,8 @@
       <updated>1665336367313</updated>
       <workItem from="1665336369027" duration="2127000" />
       <workItem from="1665339690459" duration="2293000" />
-      <workItem from="1665503792442" duration="11914000" />
+      <workItem from="1665503792442" duration="12606000" />
+      <workItem from="1665558889622" duration="2291000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1665503896967</created>
@@ -200,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665549997761</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add open close example">
+      <created>1665555535187</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665555535187</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
