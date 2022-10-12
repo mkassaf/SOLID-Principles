@@ -12,7 +12,7 @@ public class TaxCalculator extends edu.najah.eng.solid.ocp.exercise.v2.TaxCalcul
         Double taxAmount = super.calculateTax(amount, country);
         if (taxAmount == 0){
             switch (country) {
-                case TK -> {
+                case TK : {
                     TKTax egyTax = new TKTax();
                     taxAmount += egyTax.calculateTax(amount);
                 }
