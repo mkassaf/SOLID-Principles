@@ -1,22 +1,37 @@
 package edu.najah.eng.solid.lsp.example;
 
-public class Square extends Rectangle {
+public class Square extends Shape2D {
 
 
-    public Square(double height, double weight) {
-        super(height, weight);
+    public Square(double height, double width) {
+        super(height, height);
+        if (height != width){
+            System.err.println("In square can't have height != width, in my can i use the height");
+        }
+
+    }
+
+    public Square(double length) {
+        super(length, length);
     }
 
 
     @Override
     public void setHeight(double height) {
-        super.setHeight(height);
-        super.setWeight(height);
+        super.setHeight(height);//no change
+        super.setWidth(height);// new
     }
 
     @Override
-    public void setWeight(double weight) {
-        super.setHeight(weight);
-        super.setWeight(weight);
+    public void setWidth(double width) {
+        super.setWidth(width);//
+        super.setHeight(width);// new
     }
+
+    @Override
+    public double getArea() {
+        return this.getHeight() * this.getWidth();
+    }
+
+
 }

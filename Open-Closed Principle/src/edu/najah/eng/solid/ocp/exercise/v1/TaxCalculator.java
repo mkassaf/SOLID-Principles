@@ -1,11 +1,21 @@
-package edu.najah.eng.solid.ocp.exercise;
+package edu.najah.eng.solid.ocp.exercise.v1;
 
+import edu.najah.eng.solid.ocp.exercise.Country;
+import edu.najah.eng.solid.ocp.exercise.tax.GeneralTax;
+import edu.najah.eng.solid.ocp.exercise.tax.TaxFactory;
 import edu.najah.eng.solid.ocp.exercise.tax.UKTax;
 import edu.najah.eng.solid.ocp.exercise.tax.USATax;
 
 public class TaxCalculator {
 
-    public Double calculateTax(Double amount,Country country) {
+
+    private GeneralTax myTaxCalculator = null;
+
+    public TaxCalculator(){
+        myTaxCalculator = new GeneralTax();
+    }
+    @Deprecated
+    public Double calculateTax(Double amount, Country country) {
         Double taxAmount = 0.0;
         switch(country) {
             case USA:
@@ -36,5 +46,28 @@ public class TaxCalculator {
                 break;
         }
         return taxAmount;
+    }
+
+
+    @Deprecated
+    public Double calculateTaxUsingFactory(Double amount,Country country) {
+        GeneralTax taxCalculator = TaxFactory.getInstance(country);
+        return taxCalculator.calculateTax(amount);
+    }
+
+    public Double calculateTax(Double amount,GeneralTax taxCalculator) {
+        return taxCalculator.calculateTax(amount);
+    }
+
+    public Double calculateTaxUsingComposition(Double amount) {
+        return myTaxCalculator.calculateTax(amount);
+    }
+
+    public GeneralTax getMyTaxCalculator() {
+        return myTaxCalculator;
+    }
+
+    public void setMyTaxCalculator(GeneralTax myTaxCalculator) {
+        this.myTaxCalculator = myTaxCalculator;
     }
 }

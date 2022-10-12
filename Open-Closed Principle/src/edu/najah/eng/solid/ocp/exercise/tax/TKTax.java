@@ -1,6 +1,6 @@
 package edu.najah.eng.solid.ocp.exercise.tax;
 
-public class TKTax extends GeneralTax{
+public class TKTax extends GeneralTax implements Taxable{
 
     public double calculateTax(double amount){
 

@@ -4,7 +4,7 @@ package edu.najah.eng.solid.ocp.exercise.v2;
 import edu.najah.eng.solid.ocp.exercise.Country;
 import edu.najah.eng.solid.ocp.exercise.tax.EGYTax;
 
-public class TaxCalculator extends edu.najah.eng.solid.ocp.exercise.TaxCalculator {
+public class TaxCalculator extends edu.najah.eng.solid.ocp.exercise.v1.TaxCalculator {
 
     @Override
     public Double calculateTax(Double amount, Country country) {

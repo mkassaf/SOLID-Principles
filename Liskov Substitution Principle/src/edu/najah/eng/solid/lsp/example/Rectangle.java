@@ -1,29 +1,14 @@
 package edu.najah.eng.solid.lsp.example;
 
-public class Rectangle {
+public class Rectangle extends Shape2D {
 
-    private double height;
-    private double weight;
 
-    public Rectangle(double height, double weight) {
-        this.height = height;
-        this.weight = weight;
+    public Rectangle(double height, double width) {
+        super(height, width);
     }
 
-    public double getHeight() {
-        return height;
-    }
-
-    public void setHeight(double height) {
-        this.height = height;
-    }
-
-    public double getWeight() {
-        return weight;
-    }
-
-    public void setWeight(double weight) {
-        this.weight = weight;
+    public double getArea(){
+        return this.getHeight() * this.getWidth();
     }
 
 

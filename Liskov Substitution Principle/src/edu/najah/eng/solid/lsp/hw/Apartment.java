@@ -1,4 +1,4 @@
-package edu.najah.eng.solid.lsp.example2;
+package edu.najah.eng.solid.lsp.hw;
 
 abstract class Apartment {
     int squareFootage;

@@ -1,4 +1,4 @@
-package edu.najah.eng.solid.lsp.example3;
+package edu.najah.eng.solid.ocp.example3;
 
 public class Greeter {
     String formality;
