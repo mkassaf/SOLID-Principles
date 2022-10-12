@@ -1,6 +1,11 @@
 package edu.najah.eng.solid.srp.exercise;
 
 public class Customer {
+
+    private int id;
+    private String name;
+    private String address;
+
     public Customer(int id, String name, String address){
         this.id = id;
         this.name = name;
@@ -31,7 +36,4 @@ public class Customer {
         this.address = address;
     }
 
-    private int id;
-    private String name;
-    private String address;
 }

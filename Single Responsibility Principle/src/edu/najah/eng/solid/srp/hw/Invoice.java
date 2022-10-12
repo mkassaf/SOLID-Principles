@@ -1,7 +1,11 @@
-package edu.najah.eng.solid.srp.example3;
+package edu.najah.eng.solid.srp.hw;
 
 import java.util.Date;
 
+/**
+ * What are the responsibilities for this class?
+ * Do the required change to make this class single responsibility
+ */
 public class Invoice {
 
     private long amount;
@@ -18,14 +22,14 @@ public class Invoice {
         //close the database connection
         // Once Invoice has been added , send mail
         MailMessage mailMessage = new MailMessage("MailAddressFrom","MailAddressTo","MailSubject","MailBody");
-        this.SendEmail(mailMessage);
+        this.sendEmail(mailMessage);
     }
-    public void Delete()  {
+    public void delete()  {
         // connect to database
         // execute delete command to delete the invoice from the database
         //close the database connection
     }
-    public void SendEmail(MailMessage mailMessage)  {
+    public void sendEmail(MailMessage mailMessage)  {
         if (mailMessage.isValidMessage()){
             // Code for getting Email setting and send invoice mail
         } else {

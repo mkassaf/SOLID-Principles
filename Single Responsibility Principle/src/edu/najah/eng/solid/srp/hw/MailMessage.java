@@ -1,4 +1,4 @@
-package edu.najah.eng.solid.srp.example3;
+package edu.najah.eng.solid.srp.hw;
 
 public class MailMessage {
 

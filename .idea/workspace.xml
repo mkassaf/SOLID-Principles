@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc844114-e8ad-4a80-851f-6bd61d0784ab" name="Changes" comment="" />
+    <list default="true" id="bc844114-e8ad-4a80-851f-6bd61d0784ab" name="Changes" comment="add">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/exercise/tax/EGYTax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/exercise/tax/GeneralTax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/exercise/tax/TKTax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/exercise/tax/UKTax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/exercise/tax/USATax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/exercise/tax/USTOutSideTax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/exercise/v2/TaxCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/exercise/v3/TaxCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/example/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/example/impl/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/example/impl/DatabaseHellper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/example/impl/StudentHellper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/example/impl/StudentPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/example/intf/ICalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/example/intf/IStudentHellper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/example/intf/IStudentPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/exercise/ReportGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/exercise/ReportGeneratorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/exercise/impl/CSVReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/exercise/impl/PDFReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/exercise/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/exercise/TaxCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/example/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/example3/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/hw/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/example3/MailMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/hw/MailMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/exercise/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/exercise/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/exercise/CustomerHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/exercise/CustomerHelper.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +40,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -28,6 +59,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -36,7 +68,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu.najah.eng.solid.srp.exercise" />
+      <recent name="edu.najah.eng.solid.srp.example.impl" />
+      <recent name="edu.najah.eng.solid.srp.example" />
       <recent name="edu.najah.eng.solid.srp.example3" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.najah.eng.solid.ocp.exercise.v3" />
     </key>
   </component>
   <component name="RunManager">
@@ -69,10 +107,34 @@
       <updated>1665336367313</updated>
       <workItem from="1665336369027" duration="2127000" />
       <workItem from="1665339690459" duration="2293000" />
+      <workItem from="1665503792442" duration="5325000" />
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1665503896967</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665503896967</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
 </project>
