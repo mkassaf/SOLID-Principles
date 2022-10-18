@@ -2,6 +2,7 @@ package edu.najah.eng.solid.lsp.assignment;
 
 public class App {
     public static void main(String[] args) {
+
         Customer customer = new Customer();
         //LimitedCustomer customer = new LimitedCustomer(); ???
 
