@@ -7,3 +7,5 @@ What does the SOLID principles actually means? Well, it’s just an acronym of t
 - L - Liskov’s Substitution Principle
 - I - Interface Segregation Principle
 - D - Dependency Inversion Principle
+
+*In each file there is a README that contains the answers and a picture of the Class Diagram in addition to the code
