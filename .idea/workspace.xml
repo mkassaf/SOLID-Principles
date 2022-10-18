@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bc844114-e8ad-4a80-851f-6bd61d0784ab" name="Changes" comment="Add more examples">
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/bad/MyChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/bad/MyInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/good/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/good/MyChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/good/MyInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/good/conversion/CharConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/good/conversion/DoubleConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/good/conversion/StringConversion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/bad/Conversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/bad/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/Impl/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/Impl/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/Impl/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/Impl/MailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/Intrf/IDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/Intrf/IDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/Intrf/IMailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/Intrf/IMailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/InvoiceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/InvoiceHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +41,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/good" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "OverrideImplement.generate.javadoc": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="edu.najah.eng.solid.lsp.hw" />

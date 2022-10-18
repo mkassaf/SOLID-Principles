@@ -1,11 +1,10 @@
 package edu.najah.eng.solid.srp.assignment.Impl;
-
-import edu.najah.eng.solid.srp.assignment.IDatabase;
+import edu.najah.eng.solid.srp.assignment.*;
 import edu.najah.eng.solid.srp.assignment.Invoice;
-import edu.najah.eng.solid.srp.assignment.MailSender;
+import edu.najah.eng.solid.srp.assignment.Intrf.*;
 
 public class Database implements IDatabase{
-    Database(){
+    public Database(){
         //Make Connection
     }
     
