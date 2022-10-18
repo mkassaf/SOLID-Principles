@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc844114-e8ad-4a80-851f-6bd61d0784ab" name="Changes" comment="Add more examples">
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/bad/MyChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/bad/MyInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/good/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/good/MyChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/good/MyInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/good/conversion/CharConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/good/conversion/DoubleConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/good/conversion/StringConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/assignment/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/bad/Conversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/bad/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +161,10 @@
       <workItem from="1665339690459" duration="2293000" />
       <workItem from="1665503792442" duration="12606000" />
       <workItem from="1665558889622" duration="3350000" />
-      <workItem from="1665565833096" duration="1076000" />
+      <workItem from="1665565833096" duration="1164000" />
+      <workItem from="1665601687296" duration="123000" />
+      <workItem from="1665738518230" duration="145000" />
+      <workItem from="1666114019892" duration="155000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1665503896967</created>
@@ -214,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665565462022</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add more examples">
+      <created>1665566999100</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665566999100</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
