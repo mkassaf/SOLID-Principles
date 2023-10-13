@@ -9,13 +9,10 @@ public class Customer {
         offers = new ArrayList<>();
     }
 
-    public ArrayList<Offer> getOffers() {
-        ArrayList<Offer> tmpOffers = new ArrayList<>();
-        for (Offer offer : offers) {
-            tmpOffers.add(offer);
-        }
-        return tmpOffers;
-    }
+ public List<Offer> getOffers() {
+    return new ArrayList<>(offers); // Return a copy of the list to prevent direct modification
+}
+
 
     public void addOffers(Offer offer) {
         this.offers.add(offer);
