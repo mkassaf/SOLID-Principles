@@ -17,3 +17,12 @@ public interface Monitor {
     void turnOn();
     void turnOff();
 }
+public class implementMonitor implements Monitor {
+    public void turnOn() {
+        System.out.println("Turn on " + this.getClass().getName());
+    }
+
+    public void turnOff() {
+        System.out.println("Turn off " + this.getClass().getName());
+    }
+}
