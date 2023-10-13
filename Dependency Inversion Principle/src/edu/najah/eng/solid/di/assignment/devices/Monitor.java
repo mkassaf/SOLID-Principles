@@ -2,7 +2,7 @@ package edu.najah.eng.solid.di.assignment.devices;
 
 public class Monitor {
 
-    public void turnOn(){
+    public void turnOn(){ 
         System.out.println("Turn on " + this.getClass().getName());
     }
 
