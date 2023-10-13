@@ -17,3 +17,12 @@ public interface Keyboard {
     void powerOn();
     void powerOff();
 }
+public class implemrntKeyboard implements Keyboard {
+    public void powerOn() {
+        System.out.println("Power on " + this.getClass().getName());
+    }
+
+    public void powerOff() {
+        System.out.println("Power off " + this.getClass().getName());
+    }
+}
