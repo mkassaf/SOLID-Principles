@@ -1,6 +1,7 @@
 package edu.najah.eng.solid.is.assignment;
 
-public class Eagle implements Bird {
+public class Eagle implements BirdCanfly,BirdCanswim,  BirdMolt 
+{
 
     String currentLocation;
     int numberOfFeathers;
