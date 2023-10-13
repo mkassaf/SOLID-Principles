@@ -13,16 +13,23 @@ public class Keyboard {
     }
 }
 // solution 
-public interface Keyboard {
+public interface PowerSwitchable {
     void powerOn();
     void powerOff();
 }
-public class implemrntKeyboard implements Keyboard {
+
+ 
+ package edu.najah.eng.solid.di.assignment.devices;
+
+public class Keyboard implements PowerSwitchable {
+    @Override
     public void powerOn() {
-        System.out.println("Power on " + this.getClass().getName());
+          System.out.println("Power on " + this.getClass().getName());
     }
 
+    @Override
     public void powerOff() {
-        System.out.println("Power off " + this.getClass().getName());
+      System.out.println("Power off " + this.getClass().getName());
     }
 }
+
