@@ -11,3 +11,9 @@ public class Monitor {
     }
 
 }
+//solution 
+
+public interface Monitor {
+    void turnOn();
+    void turnOff();
+}
