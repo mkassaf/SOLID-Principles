@@ -13,16 +13,18 @@ public class Monitor {
 }
 //solution 
 
-public interface Monitor {
+public interface PowercanSwitch {
     void turnOn();
     void turnOff();
 }
-public class implementMonitor implements Monitor {
+public class Monitor implements PowercanSwitch {
+    @Override
     public void turnOn() {
-        System.out.println("Turn on " + this.getClass().getName());
+          System.out.println("Turn on " + this.getClass().getName());
     }
 
+    @Override
     public void turnOff() {
-        System.out.println("Turn off " + this.getClass().getName());
+         System.out.println("Turn off " + this.getClass().getName());
     }
 }
